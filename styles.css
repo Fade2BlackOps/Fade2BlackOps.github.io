@@ -6,12 +6,12 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif; /* Sans-serif font */
     line-height: 1.6;
 }
 
 header {
-    background-color: #333;
+    background-color: #333; /* Change color as needed */
     color: #fff;
     padding: 20px;
     text-align: center;
