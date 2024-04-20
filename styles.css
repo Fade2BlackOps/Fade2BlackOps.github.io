@@ -51,7 +51,7 @@ header nav ul li a {
     text-decoration: none;
     padding: 8px 16px; /* Adjust padding as needed */
     border-radius: 20px; /* Add rounded borders */
-    border: 2px solid #f0f; /* Add transparent border */
+    border: 2px solid #fff; /* Add transparent border */
 }
 
 header nav ul li a:hover {
