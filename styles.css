@@ -46,9 +46,17 @@ nav ul li {
     margin-right: 20px;
 }
 
-nav ul li a {
+header nav ul li a {
     color: #fff;
     text-decoration: none;
+    padding: 8px 16px; /* Adjust padding as needed */
+    border-radius: 20px; /* Add rounded borders */
+    border: 2px solid transparent; /* Add transparent border */
+}
+
+header nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Change background color on hover */
+    border-color: #fff; /* Change border color on hover */
 }
 
 section {
