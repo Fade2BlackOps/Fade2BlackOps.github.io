@@ -98,3 +98,7 @@ section h2 {
     height: auto;
     margin-bottom: 10px;
 }
+
+footer {
+    text-align: center;
+}
