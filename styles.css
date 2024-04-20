@@ -35,11 +35,12 @@ header {
 }
 
 header h1 {
-    margin-bottom: 100px;
+    margin-bottom: 20px;
 }
 
 nav ul {
     list-style: none;
+
 }
 
 nav ul li {
