@@ -28,8 +28,6 @@ body {
 
 header {
     display: flex;
-    align-items: center; /* Vertically center content */
-    justify-content: center; /* Horizontally center content */
     background-color: #001F3F; /* Change color as needed */
     color: #fff;
     padding: 20px;
