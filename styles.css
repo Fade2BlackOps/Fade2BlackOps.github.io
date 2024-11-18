@@ -27,12 +27,15 @@ body {
 }
 
 header {
+    display: flex;
+    align-items: center; /* Vertically center content */
+    justify-content: center; /* Horizontally center content */
     background-color: #001F3F; /* Change color as needed */
     color: #fff;
     padding: 20px;
-    text-align: center;
+    text-align: center; /* Center text within the header */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for the header */;
-    height: 90vh
+    height: 90vh; /* vh = "Viewport height" */
 }
 
 h1 {
