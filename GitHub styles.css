@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'),
+         url(https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-UFW50e.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Open Sans Bold'), local('OpenSans-Bold'),
+         url(https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UNirkOUuhs.ttf) format('truetype');
+}
+
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', Arial, sans-serif; /* Sans-serif font */
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    background-color: #001F3F; /* Change color as needed */
+    color: #fff;
+    padding: 20px;
+    text-align: center; /* Center text within the header */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for the header */;
+    height: 90vh; /* vh = "Viewport height" */
+}
+
+h1 {
+    font-size: 54px;
+}
+
+header h1 {
+    margin-bottom: 20px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex; /* Change display property to flex */
+    justify-content: center; /* Center items horizontally */
+}
+
+nav ul li {
+    display: inline;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px; /* Adjust padding as needed */
+    border-radius: 20px; /* Add rounded borders */
+    border: 2px solid #fff; /* Add transparent border */
+}
+
+header nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Change background color on hover */
+    border-color: #fff; /* Change border color on hover */
+}
+
+section {
+    padding: 50px 20px;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+.portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Adjust as needed */
+}
+
+.portfolio-item {
+    width: calc(50% - 20px); /* Adjust width for two columns */
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #f9f9f9; /* Background color for the cards */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for the cards */
+}
+
+@media (min-width: 768px) {
+    .portfolio-item {
+        width: calc(33.33% - 20px); /* Adjust width for three columns */
+    }
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+}

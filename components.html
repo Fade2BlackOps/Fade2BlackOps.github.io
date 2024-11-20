@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Components</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">My Portfolio</div>
+    <nav>
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./projects.html">Projects</a></li>
+        <li><a href="./about.html">About Me</a></li>
+        <li><a href="./components.html" class="active">Components</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main content container -->
+  <div class="container">
+    <!-- Section: Text Examples -->
+    <section class="example-section">
+      <h2>Text Styles</h2>
+      <p>
+        This is <b>bold</b>, this is <i>italic</i>, and <u>this is underlined</u>.
+        Links like <a href="#">this one</a> can direct users to other pages.
+      </p>
+    </section>
+
+    <!-- Section: Headings -->
+    <section class="example-section">
+      <h2>Headings</h2>
+      <h1>Heading 1</h1>
+      <h2>Heading 2</h2>
+      <h3>Heading 3</h3>
+      <h4>Heading 4</h4>
+    </section>
+
+    <!-- Section: Lists -->
+    <section class="example-section">
+      <h2>Lists</h2>
+      <h3>Unordered List</h3>
+      <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ul>
+      <h3>Ordered List</h3>
+      <ol>
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+        <li>Fourth item</li>
+      </ol>
+    </section>
+
+    <!-- Section: Forms -->
+    <section class="example-section">
+      <h2>Forms</h2>
+      <form>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Enter your email">
+        </div>
+
+        <div class="form-group">
+          <label for="options">Choose an option</label>
+          <select id="options">
+            <option>Option 1</option>
+            <option>Option 2</option>
+            <option>Option 3</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label><input type="checkbox"> Subscribe to newsletter</label>
+        </div>
+
+        <div class="form-group">
+          <textarea rows="4" placeholder="Your message"></textarea>
+        </div>
+      </form>
+    </section>
+
+    <!-- Section: Alerts -->
+    <section class="example-section">
+      <h2>Alerts</h2>
+      <div class="alert alert-success">This is a success message!</div>
+      <div class="alert alert-danger">This is an error message!</div>
+      <div class="alert alert">Test alert, not sure what this one is!</div>
+    </section>
+  </div>
+</body>
+
+</html>
